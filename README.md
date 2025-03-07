@@ -11,7 +11,10 @@ The application ensures a user-friendly experience with a structured table layou
 * React
 * TypeScript
 * Context API
-* JSON Server
+* REST API
+* React Router
+* Luxon (for date and time formatting)
+* JSON Server (for fake REST API)
 * Vite
 
 ## Installation & Setup
