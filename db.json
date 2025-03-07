@@ -28,7 +28,17 @@
       "category": "Novel",
       "isbn": "9212312313188",
       "createdAt": "2024-02-14T08:35:00Z",
-      "modifiedAt": "--"
+      "modifiedAt": "2025-03-07T15:35:07.635Z"
+    },
+    {
+      "id": "7809",
+      "title": "dsaf",
+      "author": "asdf",
+      "category": "Science",
+      "isbn": "9780345339683",
+      "status": "active",
+      "modifiedAt": "--",
+      "createdAt": "2025-03-07T15:39:17.793Z"
     }
   ]
 }
