@@ -47,7 +47,7 @@ Follow these steps to run the project locally:
     
     6. Run the development server::
 
-        npm start
+        npm run dev
 
 ## Preview
 ![Preview](./src/assets/dashboardPage.png)
