@@ -1,0 +1,1 @@
+export const MIN_ROW_NUM = 5;
