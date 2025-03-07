@@ -34,6 +34,7 @@ Follow these steps to run the project locally:
         
         If the version is incorrect, install or update Node.js from Node.js official website.
 
+
 	4. Install the necessary project dependencies by running:
         
         npm install
