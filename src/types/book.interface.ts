@@ -7,6 +7,6 @@ export interface Book {
   status: keyof typeof Status;
   category: string;
   createdAt: string;
-  modifiedAt: string;
+  modifiedAt: string | null
   isbn: string;
 }

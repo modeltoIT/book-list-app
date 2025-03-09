@@ -23,9 +23,8 @@ export const Notification = () => {
 
   return (styleConfig && (
       <div
-        className={ `pointer-events-none fixed right-4 bottom-[10vh] flex items-center w-[228px] max-w-xs p-4 mb-4 text-gray-500 bg-white rounded-lg shadow-md dark:text-gray-400 dark:bg-gray-800 transition-all duration-500 ease-in-out transform ${
-          showNotification ? 'opacity-100 translate-x-0 pointer-events-auto' : 'opacity-0 translate-x-4'
-        }` }
+        className={ `pointer-events-none fixed right-4 bottom-[10vh] flex items-center w-[228px] max-w-xs p-4 mb-4 text-gray-500 bg-white rounded-lg shadow-md dark:text-gray-400 dark:bg-gray-800 transition-all duration-500 ease-in-out transform 
+        ${ showNotification ? 'opacity-100 translate-x-0 pointer-events-auto' : 'opacity-0 translate-x-4' }` }
         role="alert"
       >
         <div

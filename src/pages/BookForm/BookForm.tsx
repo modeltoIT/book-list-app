@@ -63,7 +63,7 @@ export const BookForm = () => {
     if (book && bookID) {
       updateTheBook({...formData, status: book.status, createdAt: book.createdAt, modifiedAt: currentTime}, bookID)
     } else if (!bookID) {
-      addNewBook({ ...formData, status: Status.active, modifiedAt: '--', createdAt: currentTime });
+      addNewBook({ ...formData, status: Status.active, modifiedAt: null, createdAt: currentTime });
     }
 
     navigateToPrevious();
@@ -138,7 +138,7 @@ export const BookForm = () => {
 
         <button
           type="submit"
-          className="w-full text-md font-bold  bg-gray-900 text-white uppercase  shadow-md shadow-gray-900/10 transition-all hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none  p-2 rounded-md"
+          className="w-full text-md font-bold bg-gray-900 text-white uppercase  shadow-md shadow-gray-900/10 transition-all hover:shadow-lg hover:shadow-gray-900/20 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none  p-2 rounded-md"
         >
           { formTitle }
         </button>

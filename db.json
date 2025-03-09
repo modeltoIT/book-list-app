@@ -1,35 +1,44 @@
-
 {
   "books": [
     {
-      "id": "1",
+      "id": "327d",
       "title": "1984",
       "author": "George Orwell",
-      "status": "deactivated",
       "category": "Fiction",
-      "isbn": "9789394791558",
-      "createdAt": "2022-03-12T08:35:00Z",
-      "modifiedAt": "2025-03-05T14:39:01.617Z"
+      "isbn": "9786589008194",
+      "status": "active",
+      "modifiedAt": "2025-03-06T13:09:56.044Z",
+      "createdAt": "2024-03-12T08:35:00Z"
     },
     {
-      "id": "2",
+      "id": "d1aa",
       "title": "The Hobbit",
       "author": "John Ronald Reuel Tolkien",
-      "status": "deactivated",
-      "category": "Novel",
-      "isbn": "9780345339683",
-      "createdAt": "2025-09-25T08:35:00Z",
-      "modifiedAt": "--"
+      "category": "Fantasy",
+      "isbn": "9780345445605",
+      "status": "active",
+      "modifiedAt": "2025-03-07T11:26:15.730Z",
+      "createdAt": "2024-09-25T08:35:00Z"
     },
     {
-      "id": "3",
+      "id": "df68",
       "title": "The Great Gatsby",
       "author": "F. Scott Fitzgerald",
-      "status": "active",
       "category": "Novel",
-      "isbn": "9212312313188",
-      "createdAt": "2024-02-14T08:35:00Z",
-      "modifiedAt": "2025-03-06T15:40:55.819Z"
+      "isbn": "9780333791035",
+      "status": "deactivated",
+      "modifiedAt": null,
+      "createdAt": "2024-11-14T08:35:00Z"
+    },
+    {
+      "id": "af8f",
+      "title": "The Catcher in the Rye",
+      "author": "Jerome David Salinger",
+      "category": "Novel",
+      "isbn": "9783462015393",
+      "status": "deactivated",
+      "modifiedAt": null,
+      "createdAt": "2024-03-12T14:18:02.463Z"
     }
   ]
 }
