@@ -6,6 +6,9 @@ export default {
     extend: {
       screens: {
         'xs': '330px',
+      },
+      colors: {
+        'gray-150': '#edeef1',
       }
     },
   },
